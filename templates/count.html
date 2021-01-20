@@ -1,0 +1,20 @@
+Counting it <br>
+{{ Count }} words
+<br>
+
+<a href="{% url 'home' %}">Go Back</a>
+<br>
+{{ textpass }}
+
+<br>
+
+{% for wo, co in worddict %}
+
+{{ wo }} - {{ co }}
+
+<br>
+
+
+{% endfor %}
+
+<br>
